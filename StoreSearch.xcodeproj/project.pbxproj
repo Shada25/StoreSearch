@@ -13,6 +13,9 @@
 		5CAFD67E1D814BAF005A8060 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CAFD67D1D814BAF005A8060 /* Assets.xcassets */; };
 		5CAFD6811D814BAF005A8060 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CAFD67F1D814BAF005A8060 /* LaunchScreen.storyboard */; };
 		5CAFD6891D8159CC005A8060 /* SearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAFD6881D8159CC005A8060 /* SearchResults.swift */; };
+		5CAFD68B1D8167BE005A8060 /* SearchResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CAFD68A1D8167BE005A8060 /* SearchResultCell.xib */; };
+		5CAFD68D1D816CE4005A8060 /* SearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAFD68C1D816CE4005A8060 /* SearchResultCell.swift */; };
+		5CAFD68F1D8181D9005A8060 /* NothingFoundCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CAFD68E1D8181D9005A8060 /* NothingFoundCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		5CAFD6801D814BAF005A8060 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5CAFD6821D814BAF005A8060 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CAFD6881D8159CC005A8060 /* SearchResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResults.swift; sourceTree = "<group>"; };
+		5CAFD68A1D8167BE005A8060 /* SearchResultCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchResultCell.xib; sourceTree = "<group>"; };
+		5CAFD68C1D816CE4005A8060 /* SearchResultCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultCell.swift; sourceTree = "<group>"; };
+		5CAFD68E1D8181D9005A8060 /* NothingFoundCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NothingFoundCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				5CAFD67F1D814BAF005A8060 /* LaunchScreen.storyboard */,
 				5CAFD6821D814BAF005A8060 /* Info.plist */,
 				5CAFD6881D8159CC005A8060 /* SearchResults.swift */,
+				5CAFD68A1D8167BE005A8060 /* SearchResultCell.xib */,
+				5CAFD68C1D816CE4005A8060 /* SearchResultCell.swift */,
+				5CAFD68E1D8181D9005A8060 /* NothingFoundCell.xib */,
 			);
 			path = StoreSearch;
 			sourceTree = "<group>";
@@ -127,6 +136,8 @@
 			files = (
 				5CAFD6811D814BAF005A8060 /* LaunchScreen.storyboard in Resources */,
 				5CAFD67E1D814BAF005A8060 /* Assets.xcassets in Resources */,
+				5CAFD68B1D8167BE005A8060 /* SearchResultCell.xib in Resources */,
+				5CAFD68F1D8181D9005A8060 /* NothingFoundCell.xib in Resources */,
 				5CAFD67C1D814BAF005A8060 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +151,7 @@
 			files = (
 				5CAFD6791D814BAF005A8060 /* StoreSearchViewController.swift in Sources */,
 				5CAFD6891D8159CC005A8060 /* SearchResults.swift in Sources */,
+				5CAFD68D1D816CE4005A8060 /* SearchResultCell.swift in Sources */,
 				5CAFD6771D814BAF005A8060 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
